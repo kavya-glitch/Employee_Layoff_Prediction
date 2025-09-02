@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Layoff Prediction</title>
+</head>
+<body>
+    <h2>Predict Employee Layoff</h2>
+    <form method="POST" action="/predict">
+        <label>Department:</label>
+        <input type="text" name="department"><br><br>
+
+        <label>Job Role:</label>
+        <input type="text" name="job_role"><br><br>
+
+        <label>Years at Company:</label>
+        <input type="number" name="years_at_company"><br><br>
+
+        <label>Monthly Income:</label>
+        <input type="number" name="monthly_income"><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
